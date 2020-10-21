@@ -1,0 +1,34 @@
+.Positioner_Logo{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ShadowedBox_Logo{
+    width: 500px;
+}
+
+.Logo_Logo{
+    color: white;
+    font-family: 'Rajdhani';
+    font-size: 2.4rem;
+    letter-spacing: 5px;
+    text-decoration: none;
+    ;
+}
+
+.LogoWrapper_Logo{
+    margin-top: 80%;
+    background: rgb(55, 177, 55);
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contents_Logo{
+    background: white;
+    padding: 2rem;
+    height: auto;
+}

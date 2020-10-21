@@ -1,0 +1,43 @@
+/** 상단 고정, 그림자*/
+.Positioner {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+/** 흰 배경, 내용 중간 정렬*/
+.WhiteBackground {
+    background: rgb(55, 177, 55);
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+/** 해더의 내용*/
+.HeaderContents {
+    width: 1200px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.Logo {
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    font-family: 'Rajdhani';
+    color: white;
+}
+
+.Spacer {
+    flex-grow: 1;
+}
+
+.GradientBorder {
+    height: 3px;
+    background: linear-gradient(to right, green, rgb(40, 114, 40));
+}

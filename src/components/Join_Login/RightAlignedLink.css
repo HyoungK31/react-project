@@ -1,0 +1,12 @@
+.Aligner{
+    margin-top: 1rem;
+    text-align: right;
+}
+
+.JoinLink{
+    color: gray;
+}
+
+.JoinLink:hover {
+    color: rgb(83, 80, 80);
+}
